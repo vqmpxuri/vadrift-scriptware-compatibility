@@ -25,4 +25,5 @@ if not syn then
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
 else
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
+
 end
