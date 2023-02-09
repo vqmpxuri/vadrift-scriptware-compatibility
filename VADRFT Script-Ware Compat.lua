@@ -19,8 +19,6 @@
    This version has been designed to make it so all you have to do is click execute, And the script will work.
 --]]
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrillyX/Resources/main/NFLib"))()
-
 if not syn then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/SynapseToScriptWare.lua",true))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua",true))()
@@ -29,6 +27,4 @@ if not syn then
   Alert:Button("Button")
 else
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
-  local Alert = library:Notification("Vadrift Launcher", "Synapse Version Is Loading.", 5, Color3.fromRGB(255, 255, 255))
-  Alert:Button("Button")
 end
